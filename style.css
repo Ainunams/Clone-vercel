@@ -163,3 +163,12 @@ section {
 #contact {
   background: #EAF0FF;
 }
+
+.white-text {
+  color: #404040;
+}
+
+.pink-text {
+  color: #d63384;
+  font-weight: bold;
+}
