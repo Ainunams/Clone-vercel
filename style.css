@@ -253,7 +253,7 @@ section {
 
 #home {
   min-height: 100vh;
-  background: linear-gradient(135deg, #f8cdda, #e89ab2, #d67fa6);
+  background: linear-gradient(135deg, #ffe0ea, #ffd5e1, #ffaed3);
   color: white;
 }
 
@@ -266,7 +266,7 @@ section {
 }
 
 #about {
-  background: linear-gradient(135deg, #e8fdf5, #c8f7e4, #a6f0d2);
+  background: linear-gradient(135deg, #eefff8, #ceffec, #b0ffdf);
   color: #333;
 }
 
@@ -281,7 +281,7 @@ section {
 }
 
 #portfolio {
-  background: linear-gradient(135deg, #fff4cc, #ffe699, #ffd966);
+  background: linear-gradient(135deg, #fffbec, #ffeeb9, #ffe69b);
   color: #333;
 }
 
@@ -292,8 +292,12 @@ section {
 }
 
 #contact {
-  background: linear-gradient(135deg, #eef7ff, #dbeeff, #c7e4ff);
+  background: linear-gradient(135deg, #eaf6ff, #cee8ff, #b7dcff);
   color: #333;
+}
+
+.contact-box a {
+  pointer-events: none;
 }
 
 #contact h2 {
@@ -304,6 +308,37 @@ section {
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
+}
+
+#contact {
+  text-align: center;
+}
+
+.contact-box {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.contact-box p {
+  margin: 20px 0;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.contact-box a {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
 }
 
 .white-text {
