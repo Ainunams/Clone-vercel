@@ -341,6 +341,11 @@ section {
   text-decoration: underline;
 }
 
+.contact-card a {
+  position: relative;
+  z-index: 10;
+}
+
 .white-text {
   color: #404040;
 }
